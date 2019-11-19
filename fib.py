@@ -7,7 +7,6 @@ def fib():
         fibs.append(fibs[i-1] + fibs[i])
     return fibs
 
-
 def main():
     print('OUTPUT', fib())
 
